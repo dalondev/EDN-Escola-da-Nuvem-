@@ -1,0 +1,15 @@
+# 5- Calculadora de Número Inteiro
+# Leia quatro valores inteiros A, B, C e D. A seguir, calcule e mostre a diferença do 
+# produto de A e B pelo produto de C e D segundo a fórmula: DIFERENCA = (A * B - C * D).
+# Entrada: O arquivo de entrada contém 4 valores inteiros. 
+# Saída: Imprima a mensagem "DIFERENCA = " com todas as letras maiúsculas.
+
+
+a = int(input("digite a: "))
+b = int(input("digite b: "))
+c = int(input("digite c: "))
+d = int(input("digite d: "))
+
+diferenca = a*b-c*d
+
+print(f"DIFERENCA = {diferenca}")
